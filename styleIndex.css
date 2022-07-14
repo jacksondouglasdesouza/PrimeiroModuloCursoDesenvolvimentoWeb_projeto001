@@ -1,0 +1,127 @@
+body {
+  background-color: #79d9d9e3;
+  font-family: 'Overpass', sans-serif;
+}
+
+main {
+  width: 955px;
+  margin: -1px auto 10px;
+  border: 1px solid #59dadac0;
+  background-color: #79D9D9;
+  font-family: 'Overpass', sans-serif;
+  font-size: 16px;
+}
+header{
+  width: 955px;
+  height: 120px;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav {
+  width: 955px;
+  background-color: #fe57a7;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 4px;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+nav ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #111;
+  padding: 1px 5px;
+}
+nav ul li a:hover {
+  background-color: #ffe600ab;
+}
+
+article {
+  float: left;
+  margin: 30px 20px;
+  width: 600px;
+}
+
+aside{
+/*   background: url(/imagens/citar.png) no-repeat; */
+  float: left;
+  align-items: center;
+  width: 230px;
+  padding: 30px 10px 0;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+aside p{
+  color: #111;
+  font-size: 15px;  
+  align-items: center;
+}
+aside video{
+  position: relative;
+  align-items: center;
+}
+#apoio {
+  float: right;
+  width: 300px;
+  margin-top: 30px;
+}
+footer{
+  clear: both;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 5px;
+  width: 955px;
+  height: 120px;
+}
+
+h1, h2,
+h4 {
+  font-family: 'Overpass', sans-serif;
+  color: #111;
+  font-style: italic;
+  letter-spacing: -0.05em;
+}
+h1 {
+  font-size: 2.6em;
+  margin: 0 5px;
+}
+h4 {
+  font-size: 1.6em;
+  margin: 0 5px;
+}
+p,
+li, a {
+  font-family: 'Overpass', sans-serif;
+  font-size: 16px;
+  color: #111;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+footer p a{
+  text-decoration: none;
+  color: #111;
+  font-size: 18px;
+}
+
+.linkExterno{
+  text-decoration: none;
+  color: rgb(2, 102, 196);
+  font-size: 18px;
+}
+
+.cardapioId{
+  align-items: center;
+  width: 955px;
+}
